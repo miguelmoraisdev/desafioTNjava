@@ -18,15 +18,12 @@ public class ProgramSwapVect {
 			vect[i] = value;
 		}
 		
-		/*for (i=0; i < n; i++) {
-			System.out.print(vect[i]);
-		}
-		*/
 		SwapVect.swapVect(vect);
 		
 		for (i=0; i < n; i++) {
 			System.out.print(vect[i]);
 		}
+		
 		sc.close();
 	}
 
